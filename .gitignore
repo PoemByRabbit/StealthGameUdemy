@@ -77,3 +77,18 @@ DerivedDataCache/*
 # Visual Studio Code
 .vscode
 *.code-workspace
+
+# Clion and KDevelop
+*.idea
+*.kdev4
+*.pro
+*.workspace
+*CodeCompletionFolders.txt
+*CodeLitePreProcessor.txt
+*Config.pri
+*Defines.pri
+*Header.pri
+*Includes.pri
+*Source.pri
+CMakeLists.txt
+cmake-build-debug/
