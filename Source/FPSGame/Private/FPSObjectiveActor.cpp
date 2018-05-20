@@ -52,3 +52,9 @@ void AFPSObjectiveActor::PlayEffects()
 {
   UGameplayStatics::SpawnEmitterAtLocation(this, PickupFX, GetActorLocation());
 }
+
+void AFPSObjectiveActor::NotifyActorBeginOverlap(AActor* OtherActor) {
+  Super::NotifyActorBeginOverlap(OtherActor);
+
+  PlayEffects();
+}
