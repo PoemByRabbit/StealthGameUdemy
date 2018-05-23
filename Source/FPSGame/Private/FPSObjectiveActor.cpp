@@ -32,7 +32,6 @@ AFPSObjectiveActor::AFPSObjectiveActor()
   SphereComp->SetupAttachment(MeshComp);
   SphereComp->SetSphereRadius(275.0f);
   //
-
 }
 
 // Called when the game starts or when spawned
