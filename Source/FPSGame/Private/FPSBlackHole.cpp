@@ -1,8 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "FPSBlackHole.h"
-#include "DrawDebugHelpers.h"
+// #include "DrawDebugHelpers.h"
 #include "Components/SphereComponent.h"
 #include "Components/MeshComponent.h"
 
@@ -66,7 +65,7 @@ void AFPSBlackHole::AddForce()
   FCollisionShape ColSphere = FCollisionShape::MakeSphere(Radius);
 
   // Debug
-  DrawDebugSphere(GetWorld(), ActorLocation, Radius, 32, FColor::Cyan, true);
+  // DrawDebugSphere(GetWorld(), ActorLocation, Radius, 32, FColor::Cyan, true);
 
   //
   bool isHit = GetWorld()->SweepMultiByChannel(OutHits, Start, End, FQuat::Identity, ECC_WorldStatic, ColSphere);

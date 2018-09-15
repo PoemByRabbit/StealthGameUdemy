@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "DrawDebugHelpers.h"
-
 #include "FPSBlackHole.generated.h"
 
 class USphereComponent;
